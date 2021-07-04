@@ -1,17 +1,11 @@
-import "./styles.css";
-
 const onClickAdd = () => {
   //テキストの値を取得する
   const inputText = document.getElementById("add-text").value;
-
   //テキストの値を初期化する
   document.getElementById("add-text").value = "";
-
   addImcompleteList(inputText);
 };
-
 //イベントを定義する
-
 //追加ボタンを押した時のイベント
 
 document
